@@ -17,7 +17,7 @@ scores_collection = db['scores']
 
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = ''
 load_dotenv()
 openai.api_key = os.getenv("open_api_key")
 
