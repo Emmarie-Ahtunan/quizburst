@@ -14,7 +14,7 @@ class quiz(BaseModel):
 
 app=FastAPI()
 que=[]
-OPENAI_API_KEY="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"
+OPENAI_API_KEY=""
 #load_dotenv()
 openai.api_key =OPENAI_API_KEY
 
